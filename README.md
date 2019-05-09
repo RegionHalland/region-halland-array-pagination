@@ -139,7 +139,7 @@ array (size=13)
 ## Visa hur många poster det finns och på vilken sida man är
 
 ```sh
-Det finns {{ $myPagination['antal_items'] }} sidor<br>
+Det finns {{ $myPagination['antal_items'] }} sidor
 Du är på sida {{ $myPagination['current_page'] }} av {{ $myPagination['total_pages'] }}	
 ```
 
