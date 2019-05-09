@@ -51,7 +51,7 @@ OBS! Justera så att du hämtar aktuell version.
 ```
 
 
-## Hämta ut paginering-arrayen och placera den i variabeln $myPagination
+## Hämta ut paginerings-arrayen och placera den i variabeln $myPagination
 
 - Först hämtar man en valfri array
 - Därefter anropar man funktionen "get_region_halland_array_pagination()"
@@ -65,7 +65,7 @@ OBS! Justera så att du hämtar aktuell version.
 ```
 
 
-## Exempel på hur paginering-arrayen kan se ut
+## Exempel på hur paginerings-arrayen kan se ut
 
 - I denna array finns alla uppgifter man behöver för att paginera
 
