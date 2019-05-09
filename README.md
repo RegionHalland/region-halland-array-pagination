@@ -117,20 +117,20 @@ array (size=13)
 
 ```sh
 @if(function_exists('get_region_halland_page_children'))
-    @php($myPages = get_region_halland_page_children())
+  @php($myPages = get_region_halland_page_children())
     @if(isset($myPages))
-        @php($myPagination = get_region_halland_array_pagination(count($myPages),5,'sida'))
+      @php($myPagination = get_region_halland_array_pagination(count($myPages),5,'sida'))
         @php($i = $myPagination['start_item'])
         <?php while ($i < $myPagination['end_item']) { ?>
         {{ $myPages[$i]['title'] }}<br>
         {{ $myPages[$i]['content'] }}<br>
         <?php 
-			$i++;
-			if ($i >= $myPagination['antal_items']) {
-				break;
-			} 
-		}		 
-	    ?>
+            $i++;
+            if ($i >= $myPagination['antal_items']) {
+                break;
+            } 
+        }		 
+        ?>
     @endif
 @endif
 ```
