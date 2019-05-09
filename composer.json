@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-array-pagination",
+    "description": "Specialfunktion för att skapa pagination i en array",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}
