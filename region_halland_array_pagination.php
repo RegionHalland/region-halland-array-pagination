@@ -6,7 +6,7 @@
 	/*
 	Plugin Name: Region Halland Array Pagination
 	Description: Specialfunktion för att skapa pagination i en array 
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Roland Hydén
 	License: MIT
 	Text Domain: regionhalland
@@ -36,6 +36,9 @@
 		
 		// Sista item i visningen
 		$myEndItem = $myStartItem + $mySize;
+		if ($myEndItem > $myAntal) {
+		    $myEndItem = $myAntal;
+	    }
 
 		// Föregående sidas
 		$myPageMinusEtt = $myCurrentPage - 1;

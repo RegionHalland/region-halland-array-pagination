@@ -122,15 +122,9 @@ array (size=13)
       @php($myPagination = get_region_halland_array_pagination(count($myPages),5,'sida'))
         @php($i = $myPagination['start_item'])
         <?php while ($i < $myPagination['end_item']) { ?>
-        {{ $myPages[$i]['title'] }}<br>
-        {{ $myPages[$i]['content'] }}<br>
-        <?php 
-            $i++;
-            if ($i >= $myPagination['antal_items']) {
-                break;
-            } 
-        }		 
-        ?>
+          {{ $myPages[$i]['title'] }}<br>
+          {{ $myPages[$i]['content'] }}<br>
+        <?php $i++; } ?>
     @endif
 @endif
 ```
@@ -166,6 +160,9 @@ Du är på sida {{ $myPagination['current_page'] }} av {{ $myPagination['total_p
 
 
 ## Versionhistorik
+
+### 1.0.1
+- Korrigerat antal poster för sista sidan i "end_item"
 
 ### 1.0.0
 - Första version
