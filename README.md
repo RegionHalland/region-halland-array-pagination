@@ -10,6 +10,15 @@ Nedan följer instruktioner hur du kan använda pluginet "region-halland-array-p
 Denna plugin gör att man kan paginera en array. Funktionen håller koll på var i arrayen man är och vilka poster man ska visa
 
 
+## Licensmodell
+
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell på:
+```sh
+A) Wikipedia (https://sv.wikipedia.org/wiki/GNU_General_Public_License)
+B) Gnu.org (https://www.gnu.org/licenses/gpl-3.0.html)
+```
+
+
 ## Installation och aktivering
 
 ```sh
