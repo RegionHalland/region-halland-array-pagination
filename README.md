@@ -170,6 +170,12 @@ Du är på sida {{ $myPagination['current_page'] }} av {{ $myPagination['total_p
 
 ## Versionhistorik
 
+### 1.2.0
+- Uppdaterat readme med nya länkar
+
+### 1.1.0
+- Lagt till information om licensmodell
+
 ### 1.0.1
 - Korrigerat antal poster för sista sidan i "end_item"
 
