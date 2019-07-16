@@ -12,10 +12,9 @@ Denna plugin gör att man kan paginera en array. Funktionen håller koll på var
 
 ## Licensmodell
 
-Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell på:
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell via den medföljande filen:
 ```sh
-A) Wikipedia (https://sv.wikipedia.org/wiki/GNU_General_Public_License)
-B) Gnu.org (https://www.gnu.org/licenses/gpl-3.0.html)
+LICENSE (https://github.com/RegionHalland/region-halland-array-pagination/blob/master/LICENSE)
 ```
 
 
@@ -169,6 +168,9 @@ Du är på sida {{ $myPagination['current_page'] }} av {{ $myPagination['total_p
 
 
 ## Versionhistorik
+
+### 1.3.0
+- Bifogat fil med licensmodell
 
 ### 1.2.0
 - Uppdaterat readme med nya länkar
